@@ -1,0 +1,89 @@
+* {
+  font-family: Arial;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(14, 173, 173);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copy-btn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.char-length {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.char-length span {
+  width: 100%;
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+}
+
+.checkbox {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.checkbox div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 24px;
+}
+
+.generate-btn {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.password-strength {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.password-strength span {
+  padding-left: 5px;
+  color: turquoise;
+  font-weight: bold;
+}
